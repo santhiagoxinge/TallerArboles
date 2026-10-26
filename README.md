@@ -19,7 +19,7 @@ Un **observatorio volcánico** mantiene un registro de volcanes con su altitud y
 
 ## 2. Relación con las diapositivas
 
-El código del backend reutiliza el de las diapositivas (`backend/app/structures.py`):
+El código del backend reutiliza el de las diapositivas (`observatorio-volcanico/backend/app/structures.py`):
 
 | Diapositivas | Este proyecto |
 |---|---|
@@ -75,7 +75,7 @@ Requisitos: Python 3.10+ y Node.js 18+.
 **Backend** (terminal 1):
 
 ```bash
-cd backend
+cd observatorio-volcanico/backend
 pip install -r requirements.txt
 python -m uvicorn app.main:app --port 8000
 ```
@@ -83,7 +83,7 @@ python -m uvicorn app.main:app --port 8000
 **Frontend** (terminal 2):
 
 ```bash
-cd frontend
+cd observatorio-volcanico/frontend
 npm install
 npm run dev
 ```
@@ -93,7 +93,7 @@ Abre la URL que muestre Vite (normalmente http://localhost:5173). El frontend re
 **Pruebas del backend:**
 
 ```bash
-cd backend
+cd observatorio-volcanico/backend
 python -m pytest
 ```
 

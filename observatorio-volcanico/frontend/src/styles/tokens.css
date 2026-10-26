@@ -1,0 +1,35 @@
+:root {
+  /* Palette sampled from the reference glass sculpture */
+  --sky: #a6dde6;
+  --cyan: #3fb6cf;
+  --blue: #0d62b4;
+  --deep: #0a3d62;
+  --teal: #12857f;
+  --green: #1f9d63;
+  --mint: #b4dba0;
+  --paper: #eef1f2;
+
+  --ink: #0f2a3a;
+  --ink-soft: #476272;
+  --line: rgba(255, 255, 255, 0.55);
+
+  --alert-verde: #1f9d63;
+  --alert-amarillo: #e3a812;
+  --alert-naranja: #e8701a;
+  --alert-rojo: #d6342c;
+
+  --glass: rgba(255, 255, 255, 0.42);
+  --glass-strong: rgba(255, 255, 255, 0.64);
+  --glass-blur: blur(26px) saturate(170%);
+  --shadow: 0 12px 40px rgba(10, 61, 98, 0.14);
+  --shadow-lift: 0 18px 50px rgba(10, 61, 98, 0.22);
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --mono: ui-monospace, "SF Mono", "Cascadia Mono", Consolas, monospace;
+}

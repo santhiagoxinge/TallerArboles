@@ -1,0 +1,4 @@
+Arboles.pdf
+observatorio-volcanico-borrador-v1/
+*.jpg
+!observatorio-volcanico/**/*.jpg
